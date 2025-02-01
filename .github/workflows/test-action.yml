@@ -9,9 +9,9 @@ jobs:
 
   - name: Run my own container action 
     id: my-action
-     uses: ./
+    uses: ./
     with:
-     who-to-greet: '@wulfland'
+    who-to-greet: '@wulfland'
 
   - name: Output the answer
     run: echo "The answeris ${{steps.my-action.outputs.answer}}"

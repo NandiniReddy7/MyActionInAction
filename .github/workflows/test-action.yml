@@ -22,4 +22,3 @@ jobs:
         run: |
           echo "::error file=entrypoint.sh,line=4,title=Error in container::The answer was not expected"
           exit 1
-

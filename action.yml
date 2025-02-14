@@ -1,5 +1,5 @@
 name: "NandiniReddy7's Action in Action"
-description: "Greets someone and returns always 42."
+description: "Greets someone and returns always 42." 
 
 inputs:
   who-to-greet:

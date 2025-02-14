@@ -10,10 +10,10 @@ inputs:
 outputs:
   answer:
     description: "The answer to everything (always 42)"
+    value: "42"
 
 runs:
   using: "docker"
   image: "Dockerfile"
   args:
     - ${{ inputs.who-to-greet }}
-

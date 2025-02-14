@@ -15,7 +15,8 @@ jobs:
           who-to-greet: '@wulfland'
 
       - name: Debug Output
-        run: echo "DEBUG: Answer received - ${{ steps.my-action.outputs.answer }}"
+        run: | 
+            echo "DEBUG: Answer received - ${{ steps.my-action.outputs.answer }}"
 
       - name: Output the answer
         run: echo "The answer is ${{ steps.my-action.outputs.answer }}"

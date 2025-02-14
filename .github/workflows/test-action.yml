@@ -2,7 +2,7 @@ name: Test Action
 on: [push]
 
 jobs:
-  test:
+  test: 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo to use the action locally
